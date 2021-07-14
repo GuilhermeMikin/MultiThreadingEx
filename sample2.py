@@ -1,3 +1,5 @@
+# By extending Thread class
+
 from threading import * 
 
 class MyThread(Thread):

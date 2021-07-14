@@ -1,3 +1,5 @@
+# Without creating a class
+
 from threading import * 
 
 def show():

@@ -1,3 +1,5 @@
+# Without extending Thread class
+
 from threading import * 
 
 class Demo:
