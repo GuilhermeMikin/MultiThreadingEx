@@ -1,14 +1,14 @@
-# By extending Thread class
+# Estendendo uma classe Thread 
 
 from threading import * 
 
 class MyThread(Thread):
     def run(self):
         for i in range(10):
-            print("This is a child class:", current_thread().getName())
+            print("Essa é uma classe filha: ", current_thread().getName())
 
 objt = MyThread()
 objt.start()
 objt.join()
 for i in range(10):
-    print("This is the main thread:", current_thread().getName())
+    print("Esta é a Thread principal: ", current_thread().getName())

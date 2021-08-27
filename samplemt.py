@@ -7,17 +7,17 @@ class Demo:
 
     def num(self):
         for i in range(1, 6):
-            print(f"The number is {i}")
+            print(f"Número: {i}")
             sleep(1)
     
     def double(self):
         for i in range(1, 6):
-            print("The double of the number is ", 2*i)
+            print("O dobro do número: ", 2*i)
             sleep(1)
 
     def square(self):
         for i in range(1,6):
-            print(f"The square of the number is {i*i}")
+            print(f"O quadrado do número: {i*i}")
             sleep(1)
 
 obj = Demo()
@@ -38,4 +38,4 @@ t1.join()
 t2.join()
 t3.join()
 
-print("This is the main thread..")
+print("Esta é a Thread mãe..")
